@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    /* display: flex; */
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+input {
+    width: 150px;
+    height: 1rem;
+    padding: 0.3rem;
+    background-color: azure;
+    border-radius: 0.4rem;
+    margin: 0.5rem;
+    font-size: large;
+}
+
+input:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+    transform: scale(1.1);
+    color: black;
+}
+
+button {
+    width: 70px;
+    height: 2rem;
+    padding: 0.3rem;
+    background-color: azure;
+    border-radius: 0.4rem;
+    margin: 0.5rem;
+}
+
+button:hover {
+    background-color: rgb(137, 133, 126);
+    cursor: pointer;
+    transform: scale(1.1);
+    color: aliceblue;
+    border-color: rgb(2, 2, 2);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    margin: 2rem;
+}
+
+.main {
+    padding: 1rem;
+    display: flex;
+    height: 60rem;
+    width: 30rem;
+    background-color: rgb(189, 191, 191);
+    border-radius: 2rem;
+}
+
+h1 {
+    display: flex;
+}
+
+footer {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+}
+
+p {
+    border: solid 1px rgb(55, 53, 53);
+    border-radius: 1rem;
+    width: 13rem;
+    height: 7rem;
+    padding: 0.3rem;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+}
